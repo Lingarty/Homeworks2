@@ -43,7 +43,6 @@ int main()
 
 	cout << "Введите текст (в конце ввода поставьте *): " << endl;
 	Read(text);
-	Print(text);
 	cout << "Длина самого длинного слова: " << longest_word(text) << endl;
 
 	return 0;
